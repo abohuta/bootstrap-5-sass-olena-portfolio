@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-5-sass-olena-portfolio",
+  "version": "1.0.0",
+  "description": "Olena portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abohuta/bootstrap-5-sass-olena-portfolio.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "SASS",
+    "CSS",
+    "HTML",
+    "Portfolio"
+  ],
+  "author": "Andrii Bohuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abohuta/bootstrap-5-sass-olena-portfolio/issues"
+  },
+  "homepage": "https://github.com/abohuta/bootstrap-5-sass-olena-portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "autoprefixer": "^10.4.8",
+    "bootstrap": "^5.2.0",
+    "postcss-cli": "^10.0.0"
+  }
+}
