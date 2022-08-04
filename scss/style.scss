@@ -1,0 +1,18 @@
+@use "custom";
+
+//components
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixin";
+@use "components/typography";
+
+//sections
+@use "sections/navbar";
+@use "sections/intro";
+@use "sections/companies";
+@use "sections/courses";
+@use "sections/testimonials";
+@use "sections/faq";
+@use "sections/portfolio";
+@use "sections/get-started";
+@use "sections/footer";

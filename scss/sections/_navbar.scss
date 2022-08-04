@@ -1,0 +1,20 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+// @use "../components/buttons" as *;
+
+.menu {
+  @include gradient;
+
+  li {
+    padding: 0 0.7rem;
+    a {
+      color: $white !important;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+  }
+  .navbar-brand {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+}

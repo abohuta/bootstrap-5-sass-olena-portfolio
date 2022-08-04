@@ -3,6 +3,9 @@
 *.sass.map
 *.scss.map
 
+.idea/
+dist/
+
 # Logs
 logs
 *.log
