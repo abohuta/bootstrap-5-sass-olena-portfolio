@@ -21,3 +21,55 @@
     }
   }
 }
+
+// heading line
+.heading-line {
+  content: "";
+  width: 20rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0.5rem auto;
+  background-color: $primary;
+  // margin-bottom: 1rem;
+}
+/*
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $primary;
+}
+*/
+
+// display 3
+.display-3 {
+  font-family: "Noto Sans Display", sans-serif;
+  &--title {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Noto Sans Display", sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(to right, $primary, $secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
+  }
+}
+
+// border right
+.border-right {
+  border-right: 0;
+  @include media-breakpoint-up(sm) {
+    border-right: 0.1rem solid $gray-300;
+    height: 100%;
+  }
+}

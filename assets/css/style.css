@@ -10776,11 +10776,6 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
 }
-@media (max-width: 575.98px) {
-  .btn-rounded {
-    display: none;
-  }
-}
 .btn-rounded span {
   position: absolute;
   background-color: #ed6ea0;
@@ -10828,6 +10823,57 @@ textarea.form-control-lg {
   .display-2--description {
     font-size: 1.4rem;
     display: inline-block;
+  }
+}
+
+.heading-line {
+  content: "";
+  width: 20rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0.5rem auto;
+  background-color: #ed6ea0;
+}
+
+/*
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $primary;
+}
+*/
+.display-3 {
+  font-family: "Noto Sans Display", sans-serif;
+}
+.display-3--title {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 2rem;
+  }
+}
+
+.border-right {
+  border-right: 0;
+}
+@media (min-width: 576px) {
+  .border-right {
+    border-right: 0.1rem solid #dee2e6;
+    height: 100%;
   }
 }
 
@@ -10883,6 +10929,82 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.courses {
+  position: relative;
+}
+.courses__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+.courses__content p {
+  font-size: 0.9rem;
+}
+@media (min-width: 992px) {
+  .courses__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .courses__content {
+    margin-top: 7rem;
+  }
+}
+.courses__content .icon {
+  font-size: 1.8rem;
+  color: #ed6ea0;
+}
+@media (min-width: 992px) {
+  .courses__content .icon {
+    font-size: 2.5rem;
+  }
+}
+.courses__pic {
+  max-width: 100%;
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, #ed6ea0, rgba(236, 140, 105, 0.95));
+}
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3rem 1.25rem;
+  border-radius: 0.6rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: rgba(237, 110, 160, 0.7);
+}
+.testimonials__card .ratings i {
+  color: rgba(237, 110, 160, 0.7);
+  font-size: 1rem;
+}
+.testimonials__pic {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__name {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.testimonials__name h3 {
+  padding-top: 0.8rem;
+  text-transform: uppercase;
+}
+.testimonials__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */

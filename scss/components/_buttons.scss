@@ -2,9 +2,6 @@
 @use "../components/mixin" as *;
 
 .btn-rounded {
-  @include media-breakpoint-down(sm) {
-    display: none;
-  }
   position: relative;
   padding: 0.9rem 4.375rem 0.9rem 1.25rem;
   font-weight: 600;
@@ -19,7 +16,6 @@
     top: 50%;
     right: 5px;
     transform: translateY(-50%);
-    // border: 0.1rem solid $white;
     border-radius: 50%;
     i {
       color: $white;
