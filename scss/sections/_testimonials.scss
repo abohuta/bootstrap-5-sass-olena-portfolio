@@ -5,7 +5,6 @@
   position: relative;
   padding: 0;
   @include gradient;
-
   &__card {
     background-color: rgba($white, 0.8);
     padding: 3rem 1.25rem;
@@ -23,18 +22,13 @@
       }
     }
   }
-
   &__pic {
     width: 7rem;
     height: 7rem;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    // img {
-    //   border: 0.3rem solid rgba($primary, 0.7);
-    // }
   }
-
   &__name {
     padding-top: 3rem;
     margin-bottom: 1rem;
